@@ -9,4 +9,6 @@ void loop() {
   delay(5000);
   digitalWrite(LED_BUILTIN, LOW);
   delay(5000);
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(3000);
 }
